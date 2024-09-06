@@ -1,0 +1,28 @@
+/* windchill.c
+ *
+ * Author: Adarsh Sharma, Judd Brau
+ * Date: June 20, 2022
+ * Revised: September 9, 2024
+ * Purpose: to calculate the windchill based on two inputs:
+ *		temperature (Fahrenheit) assumed to be an integer
+ *      windspeed (miles per hour) assumed to be an integer
+ *		forumula:  Twc = F - (W * 0.7)
+ *      forumula from  Tom Skilling at the Chicago Tribune
+ */
+ 
+#include <stdio.h>
+
+int main(void) {
+
+  int a, b, c;
+
+  printf("Please give side a:\n");
+  scanf("%d", &a);
+
+   printf("Please give side b:\n");
+   scanf("%d", &a);
+  
+   printf("Please give side c:\n");
+   scanf("%d", &a);
+  
+}

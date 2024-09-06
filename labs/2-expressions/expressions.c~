@@ -1,0 +1,17 @@
+/**
+ * A simple program to convert a number of quarts to liters
+ * 
+ * \authors Judd Brau and Adarsh Sharma
+*/
+
+#include <stdio.h>
+
+int main(void) {
+  int a = 5;
+  int b = 6;
+  int c = a / b;
+  int d = b / a;
+  int e = (a + b) / 10;
+  int f = (a + b) % 10;
+  printf("a=%d, b=%d, c=%d, d=%d, e=%d, f=%d\n", a, b, c, d, e, f);
+}
